@@ -26,10 +26,14 @@ First, I went on ProFootballReference and scraped [NFL Draft Data](https://www.p
 [Tableau Dashboard](https://public.tableau.com/views/HowNFLCombineResultsPredictReceivingYardsperGameforTEsandWRs/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Dataset Creation Guide
-1. Run `careersScrape.py`
-2. Run `combineScrape.py`
-3. Run all cells of `analysis.ipynb`
-4. Have fun conducting you own analysis!
+1. Install the necessary dependencies using:
+```bash
+pip install pandas
+```
+2. Run `careersScrape.py`
+3. Run `combineScrape.py`
+4. Run all cells of `analysis.ipynb`
+5. Have fun conducting you own analysis!
 
 ## Next Steps
 - Expanding my analysis to players who were drafted but did not perform in the combine and vice versa.
