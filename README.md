@@ -10,7 +10,7 @@ Analyzing the relationship between combine performance and career stats for TEs 
 - [Next Steps](#next-steps)
   
 ## Dataset
-First, I scraped [NFL Draft Data](https://www.pro-football-reference.com/years/2020/draft.htm) for career stats and [NFL Combine Data](https://www.pro-football-reference.com/draft/2020-combine.htm) for combine performance stats from 2000 to 2020. Then I merged the two datasets using an inner merge to focus on players who were drafted and performed in the combine. 
+First, I went on ProFootballReference and scraped [NFL Draft Data](https://www.pro-football-reference.com/years/2020/draft.htm) for career stats and [NFL Combine Data](https://www.pro-football-reference.com/draft/2020-combine.htm) for combine performance stats from 2000 to 2020. Then I merged the two datasets using an inner merge to focus on players who were drafted and performed in the combine. 
 
 ## Approach
 1. Research Question: Does strong combine performance predict NFL success?
